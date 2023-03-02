@@ -1,0 +1,9 @@
+input[type="checkbox"].toggle{
+    /* opacity: 0; */
+    position: absolute;
+    
+}
+
+input[type="checkbox"].toggle :checked +label {
+    color:red;
+}
